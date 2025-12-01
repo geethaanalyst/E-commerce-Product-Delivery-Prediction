@@ -13,6 +13,14 @@ The dataset used includes customer care calls, customer rating, prior purchases,
 ## **Dataset Overview** 
 <img width="953" height="437" alt="image" src="https://github.com/user-attachments/assets/474b5509-222b-4254-a398-b151d0d076df" />
 
+## **Data Preprocessing**
+* **Checked for missing values:  No missing data was found.**
+* **Detecting and removing Outlier (Weight in gms).**
+* **Converted categorical features to numerical using encoding (Label encoding for Gender, Warehouse Block, Product Importance, Mode of shipment).**
+* **Normalized Numerical features (Cost of the Product, Discount Offered, Weight in gms, Customer care call, Customer Ratings).**
+* **Split data into training (75%) and testing (25%) sets for model building. ** 
+
+
 
 
 
