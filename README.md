@@ -23,5 +23,12 @@ The dataset used includes customer care calls, customer rating, prior purchases,
 ## **Visualization on Power BI**
 <img width="1369" height="774" alt="image" src="https://github.com/user-attachments/assets/cc6daa7c-a23d-4474-a3fd-a938d2e2b9a5" />
 
+## **Conclusion**
+* **The project's objective was to forecast on-time delivery for an e-commerce company's products and to explore factors influencing delivery times and customer behaviour.**
+* **The exploratory analysis highlighted that product weight and cost are crucial to delivery success, with products in the 4000-6000 gms range and priced approximately $300 being more likely to arrive on time. A significant volume of products was dispatched from warehouse F using shipping, suggesting its proximity to a seaport.**
+* **Customer behaviour also sheds light on delivery outcomes. An increase in customer care calls often correlates with delivery delays.**
+* **In contrast, customers with a history of multiple purchases tend to experience more punctual deliveries, which might explain their repeat business.**
+* **Products with discounts ranging from 0-10% tend to arrive on time. Meanwhile, products with discounts above 10% are more likely to not arrive on time.**
+
 
 
