@@ -23,6 +23,23 @@ The dataset used includes customer care calls, customer rating, prior purchases,
 ## **Visualization on Power BI**
 <img width="1369" height="774" alt="image" src="https://github.com/user-attachments/assets/cc6daa7c-a23d-4474-a3fd-a938d2e2b9a5" />
 
+## **Machine Learning Models**
+All models were evaluated using accuracy, precision, recall, and F1-score to ensure robust performance comparison.
+
+### **Logistic Regression**
+* **Interpreted linear relationships between features (Accuracy - 64%).**
+### **Decision Tree Classifier**
+* **Selected optimal parameters via grid search (Accuracy - 67%).**
+* **Grid Search in Decision Tree: Accuracy - 68%.**
+* **Max depth:4, minimum samples leaf: 1, minimum samples split: 2.**
+### **Random Forest Classifier**
+* **Explored ensemble learning for improved accuracy (Accuracy - 67%).**
+* **Max depth:4, minimum samples leaf: 2, minimum samples split: 2.**
+* **Grid search in random forest: Accuracy - 68%.**
+### **K-Nearest Neighbors**
+* **Examined proximity-based decision-making (Accuracy - 65%).**
+
+
 ## **Conclusion**
 * **The project's objective was to forecast on-time delivery for an e-commerce company's products and to explore factors influencing delivery times and customer behaviour.**
 * **The exploratory analysis highlighted that product weight and cost are crucial to delivery success, with products in the 4000-6000 gms range and priced approximately $300 being more likely to arrive on time. A significant volume of products was dispatched from warehouse F using shipping, suggesting its proximity to a seaport.**
