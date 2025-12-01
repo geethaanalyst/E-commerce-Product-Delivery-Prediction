@@ -18,10 +18,23 @@ The dataset used includes customer care calls, customer rating, prior purchases,
 * **Detecting and removing Outlier (Weight in gms).**
 * **Converted categorical features to numerical using encoding (Label encoding for Gender, Warehouse Block, Product Importance, Mode of shipment).**
 * **Normalized Numerical features (Cost of the Product, Discount Offered, Weight in gms, Customer care call, Customer Ratings).**
-* **Split data into training (75%) and testing (25%) sets for model building. ** 
+* **Split data into training (75%) and testing (25%) sets for model building.** 
 
 ## **Visualization on Power BI**
 <img width="1369" height="774" alt="image" src="https://github.com/user-attachments/assets/cc6daa7c-a23d-4474-a3fd-a938d2e2b9a5" />
+
+## **Key Findings**
+### **Gender Distribution**
+* **The dataset has the equal number of both males and female customers, with percentage of 49.6% and 50.4% respectively.**
+### **Product Insights**
+* **Heavier products (4000-6000 gms) are more likely delivered on time.**
+* **Products costing approximately $300 are mostly delivered on time compared to low-cost items.**
+### **Customer Behaviour**
+* **High customer care calls often indicate delayed delivery.**
+* **Repeat customers have better delivery outcomes.**
+### **Discount Impact**
+* **Minimal discounts (0-10%) correlate with timely deliveries.** 
+* **Higher discounts (>10%) lead to more late deliveries.**
 
 ## **Machine Learning Models**
 All models were evaluated using accuracy, precision, recall, and F1-score to ensure robust performance comparison.
@@ -39,6 +52,15 @@ All models were evaluated using accuracy, precision, recall, and F1-score to ens
 ### **K-Nearest Neighbors**
 * **Examined proximity-based decision-making (Accuracy - 65%).**
 
+## **Recommendations**
+To improve on-time delivery rates and customer satisfaction, the company should:
+
+* **Optimize shipment mode selection based on delivery reliability.**
+* **Proactively address shipments issues with multiple customer care calls.**
+* **Use customer ratings to identify and fix recurring delivery issues.**
+* **Prioritize high-importance and high-discount shipments for timely handling.**
+* **Regularly analyse warehouse and route performance for targeted improvements.**
+* **Implement predictive analytics to identify and intervene in at-risk shipments.**
 
 ## **Conclusion**
 * **The project's objective was to forecast on-time delivery for an e-commerce company's products and to explore factors influencing delivery times and customer behaviour.**
