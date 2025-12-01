@@ -20,7 +20,8 @@ The dataset used includes customer care calls, customer rating, prior purchases,
 * **Normalized Numerical features (Cost of the Product, Discount Offered, Weight in gms, Customer care call, Customer Ratings).**
 * **Split data into training (75%) and testing (25%) sets for model building. ** 
 
-
+## **Visualization on Power BI**
+<img width="1369" height="774" alt="image" src="https://github.com/user-attachments/assets/cc6daa7c-a23d-4474-a3fd-a938d2e2b9a5" />
 
 
 
